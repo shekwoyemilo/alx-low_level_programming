@@ -2,15 +2,15 @@
 
 /**
  * _isupper - checks for uppercase
- * @c: The number to be checked
+ * @x: The number to be checked
  * 
  * Return 1 for uppercase letter or 0 otherwise
  */
 
-int _putchar(char c)
+int _isupper(int x)
 
 {
-	if (c >= 65 && c <= 90)
+	if (x >= 65 && x <= 90)
 	{
 	return (1);
 	}
